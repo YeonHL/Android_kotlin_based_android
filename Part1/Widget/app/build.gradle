@@ -7,6 +7,10 @@ android {
     namespace 'com.yeonholee.widget'
     compileSdk 33
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.yeonholee.widget"
         minSdk 28
