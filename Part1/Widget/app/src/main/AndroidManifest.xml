@@ -23,6 +23,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TextViewActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Widget">
+        </activity>
+        <activity
+            android:name=".ButtonActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Widget">
+        </activity>
+        <activity
+            android:name=".EditTextActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Widget">
+        </activity>
+        <activity
+            android:name=".TextInputLayoutActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Widget">
+        </activity>
     </application>
 
 </manifest>
